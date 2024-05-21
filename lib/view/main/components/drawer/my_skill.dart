@@ -46,12 +46,15 @@ class MySKills extends StatelessWidget {
       children: [
         AnimatedLinearProgressIndicator(percentage: 0.7, title: 'Flutter',image: 'assets/icons/flutter.png',),
         AnimatedLinearProgressIndicator(percentage: 0.9, title: 'Dart',image: 'assets/icons/dart.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.6, title: 'Firebase',image: 'assets/icons/firebase.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.85, title: 'Sqlite',image: 'assets/icons/dart.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.8, title: 'Responsive Design',image: 'assets/icons/flutter.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.9, title: 'Clean Architecture',image: 'assets/icons/flutter.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.5, title: 'Bloc',image: 'assets/icons/bloc.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.93, title: 'Getx',image: 'assets/icons/dart.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.75, title: 'Firebase',image: 'assets/icons/firebase.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.75, title: 'Sqlite',image: 'assets/icons/dart.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.75, title: 'Responsive Design',image: 'assets/icons/flutter.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.8, title: 'Hive',image: 'assets/icons/flutter.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.7, title: 'Bloc',image: 'assets/icons/bloc.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.8, title: 'Provider',image: 'assets/icons/dart.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.7, title: 'Node.js',image: 'assets/icons/node-icon.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.75, title: 'Express.js',image: 'assets/icons/node-icon.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.7, title: 'MongoDB',image: 'assets/icons/mongodb-icon.png'),
       ],);
   }
 }
